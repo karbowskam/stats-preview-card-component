@@ -21,6 +21,10 @@
 }
 
 .stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  
   &__header {
     color: $font-color-stats-number;
     font-family: "stat-heading-font", Arial, Helvetica, sans-serif;
