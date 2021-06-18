@@ -1,19 +1,19 @@
 @font-face {
-  font-family: "header-font", Arial, Helvetica, sans-serif;
+  font-family: "header-font";
   src: url("../fonts/Inter-Bold.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: "main-paragraph-font", Arial, Helvetica, sans-serif;
+  font-family: "main-paragraph-font";
   src: url("../fonts/Inter-Regular.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: "stat-heading-font", Arial, Helvetica, sans-serif;
+  font-family: "stat-heading-font";
   src: url("../fonts/LexendDeca-Regular.ttf") format("truetype");
+}
 
-  @font-face {
-    font-family: "stat-number-font", Arial, Helvetica, sans-serif;
-    src: url("../fonts/Inter-Bold.ttf") format("truetype");
-  }
+@font-face {
+  font-family: "stat-number-font";
+  src: url("../fonts/Inter-Bold.ttf") format("truetype");
 }
