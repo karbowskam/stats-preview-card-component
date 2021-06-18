@@ -1,0 +1,23 @@
+.body {
+  background: $main-background;
+}
+.main {
+  background: $card-background;
+  &__header {
+    color: $font-color-heading;
+    &-color {
+      color: $violet;
+    }
+  }
+  &__paragraph {
+    color: $font-color-description;
+  }
+}
+.stats {
+  &__header {
+    color: $font-color-stats-number;
+  }
+  &__description {
+    color: $font-color-stats-description;
+  }
+}
