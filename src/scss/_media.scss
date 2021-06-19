@@ -28,3 +28,34 @@
   }
 }
 
+@media screen and (min-width: 800px) {
+  .grid {
+    width: 654px;
+    grid-template-rows: repeat(3, 480px);
+    margin: 10% auto;
+  }
+
+  .main {
+    font-size: 31px;
+    margin-top: 70px;
+
+    &__header {
+      font-size: 56px;
+    }
+  }
+
+  .stats {
+    margin-top: 53px;
+    row-gap: 40px;
+
+    &__header {
+      font-size: 38px;
+      margin-bottom: 12px;
+    }
+
+    &__description {
+      font-size: 22px;
+    }
+  }
+}
+
