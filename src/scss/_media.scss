@@ -64,8 +64,12 @@
     width: 850px;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 117px);
-    margin: 10% auto;
+    margin: 0;
     text-align: left;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 
     &__item {
       &--image {
