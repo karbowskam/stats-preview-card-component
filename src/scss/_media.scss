@@ -1,0 +1,156 @@
+@media screen and (min-width: 600px) {
+  .grid {
+    width: 500px;
+    grid-template-rows: repeat(3, 367px);
+    margin: 15% auto;
+  }
+
+  .main {
+    font-size: 23px;
+
+    &__header {
+      font-size: 43px;
+    }
+  }
+
+  .stats {
+    margin-top: 38px;
+    row-gap: 22px;
+
+    &__header {
+      font-size: 35px;
+      margin-bottom: 12px;
+    }
+
+    &__description {
+      font-size: 20px;
+    }
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .grid {
+    width: 654px;
+    grid-template-rows: repeat(3, 480px);
+    margin: 10% auto;
+  }
+
+  .main {
+    font-size: 31px;
+    margin-top: 70px;
+
+    &__header {
+      font-size: 56px;
+    }
+  }
+
+  .stats {
+    margin-top: 53px;
+    row-gap: 40px;
+
+    &__header {
+      font-size: 38px;
+      margin-bottom: 12px;
+    }
+
+    &__description {
+      font-size: 22px;
+    }
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .grid {
+    width: 850px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 117px);
+    margin: 0;
+    text-align: left;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    &__item {
+      &--image {
+        background-image: url("../img/image-header-desktop.jpg");
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 4;
+      }
+
+      &--description {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 3;
+      }
+
+      &--stats {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 3;
+        grid-row-end: 4;
+      }
+    }
+  }
+
+  .main {
+    width: 80%;
+    font-size: 11px;
+    margin-top: 50px;
+
+    &__header {
+      font-size: 27px;
+    }
+  }
+
+  .stats {
+    width: 80%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    margin-top: 10px;
+    column-gap: 22px;
+
+    &__header {
+      font-size: 20px;
+      margin-bottom: 9px;
+    }
+
+    &__description {
+      font-size: 11px;
+    }
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .grid {
+    width: 1000px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 137px);
+  }
+
+  .main {
+    font-size: 14px;
+    margin-top: 57px;
+
+    &__header {
+      font-size: 30px;
+    }
+  }
+
+  .stats {
+    margin-top: 15px;
+    column-gap: 25px;
+
+    &__header {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    &__description {
+      font-size: 15px;
+    }
+  }
+}

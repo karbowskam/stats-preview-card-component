@@ -1,0 +1,75 @@
+.body {
+  background: $main-background;
+  min-width: 375px;
+  height: 100%;
+}
+
+.grid {
+  width: 335px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, 275px);
+  margin: 20% auto;
+  text-align: center;
+  background: $card-background;
+  border-radius: 2%;
+  overflow: hidden;
+
+  &__item {
+    &--image {
+      background-image: url("../img/image-header-mobile.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-color: $violet;
+      background-blend-mode: multiply;
+    }
+  }
+}
+
+.main {
+  width: 90%;
+  margin: 40px auto 0;
+  font-size: 15px;
+  letter-spacing: 1px;
+
+  &__header {
+    color: $font-color-heading;
+    font-family: "header-font", Arial, Helvetica, sans-serif;
+    font-size: 30px;
+
+    &--color {
+      color: $violet;
+    }
+  }
+
+  &__paragraph {
+    color: $font-color-description;
+    font-family: "main-paragraph-font", Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+  }
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  row-gap: 15px;
+  letter-spacing: 1.2px;
+  width: 80%;
+  margin: 25px auto 0;
+
+  &__header {
+    color: $font-color-stats-number;
+    font-family: "stat-heading-font", Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 5px auto;
+  }
+
+  &__description {
+    color: $font-color-stats-description;
+    font-family: "stat-number-font", Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 10px;
+    margin: 0 auto;
+  }
+}
