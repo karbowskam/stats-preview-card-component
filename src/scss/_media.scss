@@ -120,3 +120,33 @@
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .grid {
+    width: 1000px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 137px);
+  }
+
+  .main {
+    font-size: 14px;
+    margin-top: 57px;
+
+    &__header {
+      font-size: 30px;
+    }
+  }
+
+  .stats {
+    margin-top: 15px;
+    column-gap: 25px;
+
+    &__header {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    &__description {
+      font-size: 15px;
+    }
+  }
+}
