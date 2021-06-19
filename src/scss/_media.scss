@@ -1,0 +1,30 @@
+@media screen and (min-width: 600px) {
+  .grid {
+    width: 500px;
+    grid-template-rows: repeat(3, 367px);
+    margin: 15% auto;
+  }
+
+  .main {
+    font-size: 23px;
+
+    &__header {
+      font-size: 43px;
+    }
+  }
+
+  .stats {
+    margin-top: 38px;
+    row-gap: 22px;
+
+    &__header {
+      font-size: 35px;
+      margin-bottom: 12px;
+    }
+
+    &__description {
+      font-size: 20px;
+    }
+  }
+}
+
