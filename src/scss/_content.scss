@@ -8,26 +8,29 @@
   grid-template-columns: 1 1fr;
   grid-template-rows: repeat(3, 1fr);
   margin: 10%;
-
+  text-align: center;
 
   &__item {
     background: $card-background;
-  
+
     &--image {
       background-image: url("../img/image-header-mobile.jpg");
       background-repeat: no-repeat;
       background-size: 100%;
     }
-
   }
 }
 
 .main {
-  
+  width: 80%;
+  margin: 0 auto;
+  font-size: 12px;
+  letter-spacing: 1px;
 
   &__header {
     color: $font-color-heading;
     font-family: "header-font", Arial, Helvetica, sans-serif;
+    font-size: 22px;
 
     &--color {
       color: $violet;
@@ -37,6 +40,7 @@
   &__paragraph {
     color: $font-color-description;
     font-family: "main-paragraph-font", Arial, Helvetica, sans-serif;
+    line-height: 1.6;
   }
 }
 
@@ -44,7 +48,7 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
-  
+
   &__header {
     color: $font-color-stats-number;
     font-family: "stat-heading-font", Arial, Helvetica, sans-serif;
