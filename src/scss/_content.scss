@@ -1,11 +1,13 @@
 .body {
   background: $main-background;
+  min-width: 375px;
 }
 
 .grid {
   display: grid;
   grid-template-columns: 1 1fr;
   grid-template-rows: repeat(3, 1fr);
+  margin: 10%;
 
 
   &__item {
@@ -14,7 +16,7 @@
     &--image {
       background-image: url("../img/image-header-mobile.jpg");
       background-repeat: no-repeat;
-      background-size: cover;
+      background-size: 100%;
     }
 
   }
