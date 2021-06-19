@@ -11,6 +11,8 @@
   text-align: center;
   row-gap: 10px;
   background: $card-background;
+  border-radius: 2%;
+  overflow: hidden;
 
   &__item {
 
