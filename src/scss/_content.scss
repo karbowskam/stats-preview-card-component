@@ -49,16 +49,25 @@
 
 .stats {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  row-gap: 15px;
+  letter-spacing: 1.2px;
+  width: 80%;
+  margin: 0 auto;
 
   &__header {
     color: $font-color-stats-number;
     font-family: "stat-heading-font", Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    margin: 5px auto;
   }
 
   &__description {
     color: $font-color-stats-description;
     font-family: "stat-number-font", Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 10px;
+    margin: 0 auto;
   }
 }
