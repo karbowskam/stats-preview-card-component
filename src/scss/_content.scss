@@ -1,25 +1,26 @@
 .body {
   background: $main-background;
   min-width: 375px;
+  height: 100%;
 }
 
 .grid {
+  width: 335px;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: repeat(3, 1fr);
-  margin: 20% 10%;
+  grid-template-rows: repeat(3, 275px);
+  margin: 20% auto;
   text-align: center;
-  row-gap: 10px;
   background: $card-background;
   border-radius: 2%;
   overflow: hidden;
+  height: 100%;
 
   &__item {
-
     &--image {
       background-image: url("../img/image-header-mobile.jpg");
       background-repeat: no-repeat;
-      background-size: 100%;
+      background-size: cover;
       background-color: $violet;
       background-blend-mode: multiply;
     }
@@ -27,15 +28,15 @@
 }
 
 .main {
-  width: 80%;
-  margin: 0 auto;
-  font-size: 12px;
+  width: 90%;
+  margin: 40px auto 0;
+  font-size: 15px;
   letter-spacing: 1px;
 
   &__header {
     color: $font-color-heading;
     font-family: "header-font", Arial, Helvetica, sans-serif;
-    font-size: 22px;
+    font-size: 30px;
 
     &--color {
       color: $violet;
@@ -56,12 +57,12 @@
   row-gap: 15px;
   letter-spacing: 1.2px;
   width: 80%;
-  margin: 0 auto;
+  margin: 25px auto 0;
 
   &__header {
     color: $font-color-stats-number;
     font-family: "stat-heading-font", Arial, Helvetica, sans-serif;
-    font-size: 17px;
+    font-size: 22px;
     margin: 5px auto;
   }
 
