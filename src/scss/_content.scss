@@ -20,6 +20,8 @@
       background-image: url("../img/image-header-mobile.jpg");
       background-repeat: no-repeat;
       background-size: 100%;
+      background-color: $violet;
+      background-blend-mode: multiply;
     }
   }
 }
