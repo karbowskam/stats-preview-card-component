@@ -7,15 +7,20 @@
     <title>Frontend Mentor | Stats preview card component</title>
   </head>
   <body class="body">
-    <div>
-      <div class="main">
-        <h1 class="main__header">
-          Get <span class="main__header main__header-color">insights</span> that help your business grow.
-        </h1>
-        <p class="main__paragraph">
-          Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and
-          overall efficiency.
-        </p>
+    <div class="grid">
+      <div class="grid__item grid__item--image"></div>
+      <div class="grid__item grid__item--description">
+        <div class="main">
+          <h1 class="main__header">
+            Get <span class="main__header main__header--color">insights</span> that help your business grow.
+          </h1>
+          <p class="main__paragraph">
+            Discover the benefits of data analytics and make better decisions regarding revenue, customer experience,
+            and overall efficiency.
+          </p>
+        </div>
+      </div>
+      <div class="grid__item grid__item--stats">
         <div class="stats">
           <h2 class="stats__header">10k+</h2>
           <h2 class="stats__header">12m+</h2>
@@ -25,7 +30,6 @@
           <p class="stats__description">queries</p>
         </div>
       </div>
-      <img src="../img/image-header-desktop.jpg" alt="Ludzie siedzący w biurze" />
     </div>
   </body>
 </html>

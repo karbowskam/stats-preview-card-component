@@ -2,14 +2,32 @@
   background: $main-background;
 }
 
+.grid {
+  display: grid;
+  grid-template-columns: 1 1fr;
+  grid-template-rows: repeat(3, 1fr);
+
+
+  &__item {
+    background: $card-background;
+  
+    &--image {
+      background-image: url("../img/image-header-mobile.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+  }
+}
+
 .main {
-  background: $card-background;
+  
 
   &__header {
     color: $font-color-heading;
     font-family: "header-font", Arial, Helvetica, sans-serif;
 
-    &-color {
+    &--color {
       color: $violet;
     }
   }
